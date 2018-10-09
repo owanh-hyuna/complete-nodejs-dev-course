@@ -1,4 +1,4 @@
-# Training Tutorial: Simple Node.js Notes App
+# Simple Node.js Notes App
 
 This repo serves to demonstrate the following:
 
