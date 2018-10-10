@@ -2,18 +2,24 @@
 console.log('Starting app.js');
 
 const fs = require('fs');
-const os = require('os');
 const _ = require('lodash');
+const yargs = require('yargs');
+
 const notes = require('./notes.js');
 
-let user = os.userInfo();
-let filteredArray = _.uniq(['Andrew', 1, 'Andrew', 1, 2, 3, 4]);
+const argv = yargs.argv;
+let command = argv._[0];
+console.log('Command:', command);
+console.log('Yargs:', argv);
 
-fs.appendFileSync('greetings.txt', `Hello ${user.username}! You are ${notes.age}.`);
-
-console.log('Time for some quick Math!');
-console.log('If we add 9 and -2 then we get:', notes.add(9, -2));
-
-console.log('_isString(true) evaluates to:', _.isString(true));
-console.log('_.isString("Andrew") evaluates to:', _.isString('Andrew'));
-console.log(filteredArray);
+if (command === 'add') {
+	notes.addNote(argv.title, argv.body);
+} else if (command === 'list') {
+	notes.getAll();
+} else if (command === 'read') {
+	notes.getNote(argv.title);
+} else if (command === 'remove') {
+	notes.removeNote(argv.title);
+} else {
+	console.log('Command not recognized');
+}
