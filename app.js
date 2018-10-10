@@ -1,6 +1,4 @@
 'use strict';
-console.log('Starting app.js');
-
 const fs = require('fs');
 const _ = require('lodash');
 const yargs = require('yargs');
@@ -10,8 +8,6 @@ let note = null;
 
 const argv = yargs.argv;
 let command = argv._[0];
-console.log('Command:', command);
-console.log('Yargs:', argv);
 
 switch (command) {
 	case 'add':
@@ -24,7 +20,9 @@ switch (command) {
 		}
 		break;
 	case 'list':
-		notes.getAll();
+		let allNotes = notes.getAll();
+		console.log(`Printing ${allNotes.length} note(s).`);
+		allNotes.forEach(note => notes.logNote(note));
 		break;
 	case 'read':
 		note = notes.getNote(argv.title);
