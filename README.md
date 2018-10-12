@@ -11,3 +11,12 @@ This app serves to demonstrate the following:
 -   Shows how Yargs can be used to easily parse command line args.
 -   Code reusability.
 -   Ins and outs of arrow functions.
+
+## Weather App
+
+This app serves to demonstrate the following:
+
+-   Basics of asynchronous development
+-   The elements of an HTTP Request
+-   Encoding and decoding user input
+-   Consuming the Google Geocoding API
