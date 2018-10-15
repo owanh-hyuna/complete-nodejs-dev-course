@@ -16,7 +16,9 @@ This app serves to demonstrate the following:
 
 This app serves to demonstrate the following:
 
--   Basics of asynchronous development
--   The elements of an HTTP Request
--   Encoding and decoding user input
--   Consuming the Google Geocoding API
+-   Basics of asynchronous development.
+-   The elements of an HTTP Request.
+-   Encoding and decoding user input.
+-   Consuming the Google Geocoding API.
+-   Consuming the Dark Sky API.
+-   Creating and using callback functions.
