@@ -22,3 +22,4 @@ This app serves to demonstrate the following:
 -   Consuming the Google Geocoding API.
 -   Consuming the Dark Sky API.
 -   Creating and using callback functions.
+-   ES6 Promises
