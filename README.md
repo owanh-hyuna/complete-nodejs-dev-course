@@ -23,3 +23,4 @@ This app serves to demonstrate the following:
 -   Consuming the Dark Sky API.
 -   Creating and using callback functions.
 -   ES6 Promises
+-   Using the axios library to perform Promise-supported HTTP requests.
