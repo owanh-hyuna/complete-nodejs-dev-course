@@ -30,3 +30,4 @@ This app serves to demonstrate the following:
 -   Creating a simple Express web server.
 -   Configuring a static files directory path.
 -   Rendering templates with dynamic data (using Handlebars and hbs).
+-   Creating Express middleware.
