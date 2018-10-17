@@ -31,3 +31,8 @@ This app serves to demonstrate the following:
 -   Configuring a static files directory path.
 -   Rendering templates with dynamic data (using Handlebars and hbs).
 -   Creating Express middleware.
+
+## Async/Await
+
+-   Async/Await basics.
+-   Converting a Promise chain to an equivalent Async/Await implementation.
