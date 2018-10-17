@@ -24,3 +24,9 @@ This app serves to demonstrate the following:
 -   Creating and using callback functions.
 -   ES6 Promises
 -   Using the axios library to perform Promise-supported HTTP requests.
+
+## Web Servers and Application Deployment
+
+-   Creating a simple Express web server.
+-   Configuring a static files directory path.
+-   Rendering templates with dynamic data (using Handlebars and hbs).
