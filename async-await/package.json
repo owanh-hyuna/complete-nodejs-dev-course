@@ -1,0 +1,29 @@
+{
+  "name": "async-await",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app-promises.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owanh-hyuna/complete-nodejs-dev-course.git"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "currency",
+    "converter"
+  ],
+  "author": "Owan Hunte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owanh-hyuna/complete-nodejs-dev-course/issues"
+  },
+  "homepage": "https://github.com/owanh-hyuna/complete-nodejs-dev-course#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.1.0"
+  }
+}
