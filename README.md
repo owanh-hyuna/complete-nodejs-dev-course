@@ -38,3 +38,8 @@ This app serves to demonstrate the following:
 -   Converting a Promise chain to an equivalent Async/Await implementation.
 -   Implements a simple currency converter.
 -   Handling Errors and Awaiting Async Function.
+
+## Testing NodeJS Applications
+
+-   Mocha and Basic Testing.
+-   Watching and Auto Restarting Tests.

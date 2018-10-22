@@ -1,0 +1,23 @@
+{
+	"name": "node-tests",
+	"version": "1.0.0",
+	"description": "NodeJS App Testing",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha **/*.test.js",
+		"test-watch": "nodemon --exec \"npm test\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/owanh-hyuna/complete-nodejs-dev-course.git"
+	},
+	"author": "Owan Hunte",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/owanh-hyuna/complete-nodejs-dev-course/issues"
+	},
+	"homepage": "https://github.com/owanh-hyuna/complete-nodejs-dev-course#readme",
+	"devDependencies": {
+		"mocha": "^5.2.0"
+	}
+}
