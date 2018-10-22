@@ -44,3 +44,5 @@ This app serves to demonstrate the following:
 -   Mocha and Basic Testing.
 -   Watching and Auto Restarting Tests.
 -   Illustrates using the 'expect' assertion library.
+-   Illustrates testing Asynchronous Code.
+-   Testing Express Applications.

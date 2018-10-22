@@ -19,6 +19,10 @@
 	"homepage": "https://github.com/owanh-hyuna/complete-nodejs-dev-course#readme",
 	"devDependencies": {
 		"expect": "^1.20.2",
-		"mocha": "^5.2.0"
+		"mocha": "^5.2.0",
+		"supertest": "^3.3.0"
+	},
+	"dependencies": {
+		"express": "^4.16.0"
 	}
 }
