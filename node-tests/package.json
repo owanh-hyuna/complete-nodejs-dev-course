@@ -18,6 +18,7 @@
 	},
 	"homepage": "https://github.com/owanh-hyuna/complete-nodejs-dev-course#readme",
 	"devDependencies": {
+		"expect": "^1.20.2",
 		"mocha": "^5.2.0"
 	}
 }
