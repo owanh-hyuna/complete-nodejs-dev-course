@@ -10,12 +10,30 @@ it('should add two numbers', () => {
 		.toBeA('number');
 });
 
+it('should async add two numbers', done => {
+	utils.asyncAdd(4, 3, sum => {
+		expect(sum)
+			.toBe(7)
+			.toBeA('number');
+		done();
+	});
+});
+
 it('should square a number', () => {
 	let res = utils.square(5);
 
 	expect(res)
 		.toBe(25)
 		.toBeA('number');
+});
+
+it('should async square a number', done => {
+	utils.asyncSquare(5, exp => {
+		expect(exp)
+			.toBe(25)
+			.toBeA('number');
+		done();
+	});
 });
 
 it('should set firstName and lastName', () => {
@@ -27,16 +45,3 @@ it('should set firstName and lastName', () => {
 		lastName: 'Hunte'
 	});
 });
-
-//it('should expect some values', () => {
-//	//expect(12).toNotBe(12);
-//	//expect({ name: 'owan' }).toNotEqual({ name: 'Owan' });
-//	//expect([2, 3, 4]).toExclude(1);
-//	expect({
-//		name: 'Owan',
-//		age: 25,
-//		location: 'Barbados'
-//	}).toInclude({
-//		age: 25
-//	});
-//});
